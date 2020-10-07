@@ -739,6 +739,8 @@ i {
 
     #staff{
         width: 400px;  
+        margin-bottom: 10px;
+
     }
     #contenedor_staff {
         width: 100%;

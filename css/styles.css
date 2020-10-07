@@ -452,14 +452,14 @@ i {
 
     #barra_navegacion ul li a{
         display: inline-block;
-        padding: 2px;
+        padding: 5px;
         background-color: #5F6D73;
         color: #FFFFFF;
         font-weight: bold;
         text-decoration: none;
-        border-radius: 60px;
-    
+        border-radius: 60px;    
     }
+
     #logo{
         display: none;
     }
@@ -491,8 +491,9 @@ i {
         text-align: center;
         color: blanchedalmond;
         width: 95%;
-        margin-left: 10px;
+        margin-left: 15px;
         display: inline-block;    
+        font-size: smaller;
     }
     #sobre_nosotros h1 {
         display: inline;
@@ -554,6 +555,7 @@ i {
     
     .cantidad_producto{
         width: 80%;
+        margin-bottom: 10px;
     }
     #productos {
         width: 300px;
@@ -590,7 +592,9 @@ i {
     }
 
     #home {
-        width: 300px;  
+        width: 300px; 
+        margin-top: -10px;    
+ 
     }
     #contenedor_imagen_home{
         width: 100%;

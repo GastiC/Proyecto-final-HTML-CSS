@@ -443,11 +443,11 @@ i {
     }
     #barra_navegacion ul{
         width: 360px;
-        margin-left: 9px;
+        margin-left: 0px;
     }
     #barra_navegacion ul li{
         display: inline-block; 
-        margin: 1px;
+        margin: 0.5px;
     }
 
     #logo{

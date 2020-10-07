@@ -576,7 +576,9 @@ i {
     }
 
     #staff{
-        width: 280px;  
+        width: 280px; 
+        margin-bottom: 10px;
+
     }
     #contenedor_staff {
         width: 90%;
@@ -621,6 +623,7 @@ i {
   
     .quienes_somos{
         width: 300px;
+        margin-top: -10px;
     }
     
     .texto_quienes_somos{
@@ -739,8 +742,6 @@ i {
 
     #staff{
         width: 400px;  
-        margin-bottom: 10px;
-
     }
     #contenedor_staff {
         width: 100%;

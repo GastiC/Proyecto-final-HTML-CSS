@@ -597,6 +597,12 @@ i {
         margin-bottom: 20px;
     }
 
+    #imagen_home {
+        width: 100%;  
+        height: 300px;
+        border-radius: 60px;
+    }
+
     #presentacion {
         width: 100%;
         margin-bottom: 20px;

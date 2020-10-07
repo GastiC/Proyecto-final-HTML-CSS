@@ -518,11 +518,30 @@ i {
     .input{
         width: 80%;
     }
-
+    #campos_formulario1 {
+        width: 40%;
+        padding: 0.5em;
+        display: inline-block;
+    }
+    #campos_formulario2 {
+        width: 40%;
+        padding: 0.5em;
+        display: inline-block;
+    }
     #formulario_cotizacion{
         width: 300px;    
     }
-
+    #campos_productos1 {
+        width: 40%;
+        padding: 0.5em;
+        display: inline-block;
+    }
+    #campos_productos2 {
+        width: 40%;
+        padding: 0.5em;
+        display: inline-block;
+    }
+    
     .cantidad_producto{
         width: 80%;
     }
@@ -530,7 +549,7 @@ i {
         width: 300px;
     }
     .imagenes_productos {
-        width: 25%;
+        width: 28%;
         height: 110px;
         margin: 15px 10px 15px 0px;
         border-radius: 50px;

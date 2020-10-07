@@ -426,8 +426,155 @@ i {
     border-radius: 20px;
     
 }
+@media all and (max-width: 399px) {
+    header{
+        width: 350px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #barra_navegacion{
+        width: 350px;
+        height: 40px;
+        float: none;     
+        margin-top: 20px; 
+        font-size: small;
+    }
+    #barra_navegacion ul{
+        width: 460px;
+        margin-left: 9px;
+    }
+    #barra_navegacion ul li{
+        display: inline-block; 
+        margin: 1.3px;
+    }
 
-@media all and (max-width: 600px) {
+    #logo{
+        display: none;
+    }
+   
+    .imagenes {
+        width: 100%;   
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .contenedor_imagen{
+        width: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        float: left;
+    }    
+    #presentacion {
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        float: right;
+    }
+    #contenido {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    #sobre_nosotros {
+        text-align: center;
+        color: blanchedalmond;
+        width: 95%;
+        margin-left: 10px;
+        display: inline-block;    
+    }
+    #sobre_nosotros h1 {
+        display: inline;
+    }
+    #links h1 {
+        text-align: center;
+    }
+    #links {
+        text-align: center;
+        color: blanchedalmond;
+        width: 95%;
+        display: inline-block;
+    }
+    #links ul {
+        width: 100%;
+        margin-left: 0px;
+    }    
+    #newsletter {
+        display: inline-block;
+        width: 100%;
+    }
+    #newsletter button {
+        display: inline;
+    }
+    #footer {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #formulario_contacto {
+        width: 300px;    
+    }
+    #formulario_cotizacion{
+        width: 300px;    
+    }
+    #productos {
+        width: 300px;
+    }
+    .imagenes_productos {
+        width: 30%;
+        height: 110px;
+        margin: 15px 10px 15px 0px;
+        border-radius: 50px;
+    }
+    .nombre_productos{
+        text-align: center;
+        font-size: 17px;
+    }
+    .descripcion_producto{
+        display: none;
+    }
+
+    #staff{
+        width: 300px;  
+    }
+    #contenedor_staff {
+        width: 100%;
+    }
+
+    .foto_staff {
+        width: 40%;
+        height: 150px;
+        margin: 15px 10px 15px 20px;
+    }
+    #contenedor_nombre_productos{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #home {
+        width: 300px;  
+    }
+    #contenedor_imagen_home{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #presentacion {
+        width: 100%;
+        margin-bottom: 20px;
+    
+    }    
+  
+    .quienes_somos{
+        width: 300px;
+    }
+    
+    .texto_quienes_somos{
+        width: 260px;
+    }
+}
+@media all (min-width: 400px) and (max-width: 600px) {
     header{
         width: 450px;
         height: 40px;

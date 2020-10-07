@@ -452,6 +452,7 @@ i {
 
     #barra_navegacion ul li a{
         display: inline-block;
+        font-size: smaller ;
         padding: 5px;
         background-color: #5F6D73;
         color: #FFFFFF;
@@ -555,7 +556,7 @@ i {
     
     .cantidad_producto{
         width: 80%;
-        margin-bottom: 10px;
+        margin-bottom: 2px;
     }
     #productos {
         width: 300px;
@@ -583,7 +584,7 @@ i {
 
     .foto_staff {
         width: 38%;
-        height: 130px;
+        height: 80px;
         margin: 15px 10px 15px 20px;
     }
     #contenedor_nombre_productos{
@@ -609,9 +610,14 @@ i {
 
     #presentacion {
         width: 100%;
-        margin-bottom: 20px;
-    
+        margin-bottom: 20px;    
     }    
+    
+    #texto_presentacion {
+        font-size: 15px;
+        margin-left: -12px;
+      
+}
   
     .quienes_somos{
         width: 300px;

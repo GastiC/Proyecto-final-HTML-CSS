@@ -566,12 +566,12 @@ i {
         width: 280px;  
     }
     #contenedor_staff {
-        width: 100%;
+        width: 90%;
     }
 
     .foto_staff {
         width: 38%;
-        height: 150px;
+        height: 130px;
         margin: 15px 10px 15px 20px;
     }
     #contenedor_nombre_productos{

@@ -439,7 +439,7 @@ i {
         height: 40px;
         float: none;     
         margin-top: 20px; 
-        font-size: small;
+        font-size: smaller ;
     }
     #barra_navegacion ul{
         width: 360px;
@@ -447,7 +447,7 @@ i {
     }
     #barra_navegacion ul li{
         display: inline-block; 
-        margin: 1.3px;
+        margin: 1px;
     }
 
     #logo{
@@ -513,16 +513,24 @@ i {
         margin-right: auto;
     }
     #formulario_contacto {
-        width: 280px;    
+        width: 300px;    
     }
+    .input{
+        width: 80%;
+    }
+
     #formulario_cotizacion{
-        width: 280px;    
+        width: 300px;    
+    }
+
+    .cantidad_producto{
+        width: 80%;
     }
     #productos {
-        width: 280px;
+        width: 300px;
     }
     .imagenes_productos {
-        width: 30%;
+        width: 25%;
         height: 110px;
         margin: 15px 10px 15px 0px;
         border-radius: 50px;
@@ -548,7 +556,7 @@ i {
         margin: 15px 10px 15px 20px;
     }
     #contenedor_nombre_productos{
-        width: 100%;
+        width: 95%;
         margin-bottom: 20px;
     }
 
@@ -574,7 +582,8 @@ i {
         width: 260px;
     }
 }
-@media all (min-width: 400px) and (max-width: 600px) {
+
+@media all and (min-width: 400px) and (max-width: 600px) {
     header{
         width: 450px;
         height: 40px;

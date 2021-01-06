@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type= "text/css" href="css/styles.css">  
-    <title>Home</title>
+{% extends "index.html" %}
+{% block title %} Home {% endblock %}
 
-</head>
-<body>
-    <header id="header"> 
-    <nav id="barra_navegacion">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="html/quienes_somos.html">Quiénes somos</a></li>
-            <li><a href="html/productos.html">Productos</a></li>
-            <li><a href="html/contacto.html">Contacto</a></li>
-            <li><a href="html/cotizacion.html">Cotización</a></li>
-        </ul>
-    </nav>
     </header>   
     <div id="home">
         <div id="contenedor_imagen_home"> 
@@ -60,13 +43,15 @@
             <a href="https://www.instagram.com/sublinova.ok/" target="_blank">
                 <img class="red_social" src="img/instagram.png " >
             </a>
-            <a href="https://api.whatsapp.com/send?phone=+541155913842" target="_blank">
+            <a href="https://www.whatsapp.com" target="_blank">
                 <img class="red_social" src="img/whatsaap.png " >
             </a>            
             <a href="mailto:encontraatumascota@gmail.com" target="_blank">
                 <img class="red_social" src="img/email.png " >
-            </a>            
+            </a>
+
+            
         </div>
     </div>
 </footer>
-</html>
+{% endblock %}
